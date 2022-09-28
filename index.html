@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: #3e52a3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Rahul Verma</a>.
+    </div>
+    <main>
+      <header>
+        <h1>
+          Rock<br />
+          Paper<br />
+          Scissors
+        </h1>
+        <p class="score">
+          Score<br />
+          <span class="score--value">0</span>
+        </p>
+      </header>
+      <section class="section--1">
+        <img class="img-triangle" src="./images/bg-triangle.svg" />
+
+        <img class="img--rock" src="./images/icon-rock.svg" />
+        <img class="img--paper" src="./images/icon-paper.svg" />
+        <img class="img--scissors" src="./images/icon-scissors.svg" />
+      </section>
+      <section class="section--2 display-none">
+        <div class="picked--display">
+          <p class="player--massege1">you picked :-</p>
+          <p class="player--massege2">the house picked :-</p>
+        </div>
+        <p class="win--lose--display">you win</p>
+        <button class="btn--playAgain">play again</button>
+
+        <img class="position--0 color--rock" src="./images/icon-rock.svg" />
+
+        <img class="position--1 color--paper" src="./images/icon-paper.svg" />
+      </section>
+
+      <button class="btn-rules">Rules</button>
+      <div class="model display-none">
+        <p class="rules--text">Rules</p>
+        <button class="close-modal">&times;</button>
+        <img id="model--img" src="./images/image-rules.svg" />
+        <div class="overlay"></div>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
