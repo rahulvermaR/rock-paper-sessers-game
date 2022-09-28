@@ -61,5 +61,5 @@ also by using js game is fully functional
 
 ## Author
 
-- Website - [Rahul verma](https://www.your-site.com)
+- Website - [Rahul verma](https://rock-paper-sessers-game.netlify.app/)
 - Frontend Mentor - [@rahulverma](https://www.frontendmentor.io/profile/yourusername)
